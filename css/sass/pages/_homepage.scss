@@ -1,0 +1,296 @@
+/* Start Carousel Style */
+.image-banner{
+    -webkit-border-size: cover ;
+    background-size: cover ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+    .carousel-caption{
+       padding-bottom: 150px;
+        font-family: sans-serif;
+        h2 {
+            font-size: 70px;
+            text-transform: uppercase;
+            font-weight: bold;
+            animation-delay: 2s;
+            color: $main-color-2;
+        }
+        
+    a{
+        background-color: $main-color;
+        padding: 15px 35px;
+        display: inline-block;
+        margin-top: 15px;
+        color: #fff;
+        text-transform: uppercase;
+        border-radius: 25px;
+        text-decoration: none;
+    }
+
+    }
+    @media only screen and (min-width:768px) and (max-width:991px) {
+
+    }
+
+    @media only screen and (max-width:767px){
+        .navbar{
+            font-size: 30px;
+            padding: 20px 15px;
+        }
+        .navbar-collapse{
+            padding-bottom: 120px;
+        }
+        .carousel-caption {
+            padding-bottom:198px;
+        }
+        .carousel-caption h2 {
+            font-size: 25px;
+        }
+        .carousel-caption a{
+            padding:10px 25px;
+        }
+    }
+    /*End Carousel Style*/
+
+    /*Start Section Discover */
+
+    .discover{
+        background-color: #F5F8FA;
+        text-align: center;
+        padding: 60px 0  60px 0;
+        .top{
+            color: #4B4B4B;
+            p{
+                color: $secondary-color;
+                font-weight:300;
+                font-size: 20px;
+            }
+            span{
+                color:#333333 !important;
+            }
+        }
+        .box-1{
+            background-color: #FFF;
+            padding: 35px 0;
+            border-radius: 16px;
+            margin-bottom:20px ;
+            h3{
+                color:$Primary-color;
+                margin-top: 25px;
+            }
+            p{
+                color: $secondary-color;
+                text-align: center;
+            }
+        }
+        .box-2{
+            background-color: #FFF;
+            padding: 35px 0;
+            border-radius: 16px;
+            margin-bottom: 20px;
+            h3{
+                color:$Primary-color;
+                margin-top: 25px;
+            }
+            p{
+                color: $secondary-color;
+                text-align: center;
+            }
+        }
+        .box-3{
+            background-color: #FFF;
+            padding: 35px 0;
+            border-radius: 16px;
+            margin-bottom: 20px;
+            h3{
+                color:$Primary-color;
+                margin-top: 25px;
+            }
+            p{
+                color: $secondary-color;
+                text-align: center;
+            }
+        }
+      a{
+          background-color: $Primary-color;
+          cursor: pointer;
+          color: #fff;
+          border-radius: 20px;
+          margin: 40px 0 0 0;
+          padding: 12px 40px;
+          text-decoration: none;
+         &:hover{
+              background-color: $main-color;
+          }
+      }
+    }
+    
+   /* END Section Discover */
+
+   /* Start Serrvice Style */
+
+   .service {
+    width:100%;
+    background: url('../images/service-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    h2 {
+        color: #fff;
+        text-align: center;
+        font-weight: bolder  ;
+        border-bottom: 1px solid;
+      }
+    .fas{
+    margin: 12px;
+  }
+  .serv {
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    margin: 25px 0px;
+    h4 {
+        font-size: 15px;
+        font-weight: 600;
+        padding: 0;
+        margin: 5px 0 0;
+        float: left;
+        width: 100%;
+      }
+      p {
+        float: left;
+        width: 100%;
+        font-size: 15px;
+        line-height: 23px;
+        font-weight: 400;
+        margin-top: 5px;
+        color: $secondary-color;
+      }
+  }	  
+  .icon-service {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    img {
+        width: 60px;
+      }
+  }    
+  }
+  
+  /* END Servise Style */
+
+  /* Start Find-docror Style */
+
+  .find-doctor{
+      background-color: #F5F8FA;
+
+      .head{
+        color: #4B4B4B;
+       padding: 60px 0 60px 0;
+
+        h2{
+            text-align: center;
+        }
+        p{
+            color: $secondary-color;
+            font-weight:300;
+            font-size: 20px;
+        }
+    }
+    .list-home{
+         
+        .list-title{
+         background-color:$main-color-2; 
+           text-align: center;
+            padding: 10px 0;
+            .fas{
+                color: #fff;
+                font-size: 40px;
+            }
+            h3{
+                color: $main-color;
+                text-transform: capitalize;            
+            }     
+        }   
+    ul {
+         
+        li{
+            list-style: none;
+            background-color: #fff;
+            margin: 10px 0;
+            padding: 6px 0;
+            transition: 2s;
+            opacity: .7;
+            
+            &:hover{
+                background-color:$Primary-color;
+                opacity: 1;
+                color: #fff !important;
+                transform: rotatey(360deg);
+            
+            a{
+                text-decoration: none;
+                list-style: none;
+                transition: 4s;
+               color: #FFF;
+               
+             }
+             
+        }
+            strong{
+                color: $secondary-color;
+                margin: 0 10px;
+                padding: 3px 10px;
+                background-color:#ccc;
+                    
+            }
+            .fas{
+                margin: 0 50px;
+            } 
+        }
+    }
+  }     
+}
+
+/*END find-doctor Style */
+  
+/* Start App */
+.app {
+    background-color: $main-color;
+    width: 100%;
+    -webkit-border-size: cover ;
+    background-size: cover ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    .icon{
+        position: absolute;
+        height: 288px;
+        top:10px;
+     }
+    .app-store {
+        padding: 70px 0;
+        text-align: right;
+     
+    h3 {
+        font-size: 29px;
+        font-weight: 400;
+        font-style: italic;
+        color: #fff;
+        text-align: right;
+    }
+    span{
+        color: #ffae00;
+    }
+    img {
+        text-align: center;
+        margin: 5px 0;
+    }
+  }
+  
+}
+
+/* END APP Style */
+

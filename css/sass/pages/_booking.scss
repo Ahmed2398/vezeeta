@@ -1,0 +1,160 @@
+.booking{
+    background-color: #F5F8FA;
+    padding: 60px 0 40px 0 ; 
+   
+    .box-cart{
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        border: 2px solid #e1e8ed ;
+        .message{
+            background-color: #f8f8f8;
+            border-radius: 3px;
+            padding: 15px;
+            margin-bottom: 30px;
+          p{
+              margin: 0;
+              color: $secondary-color;
+              a{
+                  color: $Primary-color;
+                  text-decoration: none;
+                  &:hover{
+                      color: $main-color;
+                  }
+              }
+          }
+        }
+        .form-title{
+             position: relative;
+             padding-left: 55px;
+             margin: 20px 0;
+             h3{
+                 font-size: 21px;
+                 padding: 0;
+                 margin: 0;
+                 font-weight: 500;
+                 line-height: 1.2;
+                 strong{
+                     width: 45px;
+                     height: 45px;
+                     border-radius: 50%;
+                     color: #fff;
+                     font-size: 18px;
+                     font-size: 1.125rem;
+                     line-height: 42px;
+                     position: absolute;
+                     left: 0;
+                     top: -5px;
+                     text-align: center;
+                     background-color: $Primary-color;
+                 }
+             }
+        }
+        .step{
+         padding: 20px 0 0 55px;
+         margin: 0;
+         .form-group{
+             margin-bottom: 30px;
+             label{
+                 color: #555555;
+                 font-size: 16px;
+                 font-weight: 600;
+ 
+             }
+         }
+         .card-img{
+             margin-top: 35px;
+         }
+         h5{
+             color: #333;
+         }
+         p{
+             color: $secondary-color;
+         }
+        }
+        .policy{
+            .check-boxes{
+                h4{
+                    font-size: 20px;
+                    font-weight: 500;
+                    color: #3333;
+                }
+                label{
+                    color: $secondary-color;
+                
+                a{
+                    color: $Primary-color;
+                    text-decoration: none;
+                 &:hover{
+                     color: $main-color;
+                     cursor: pointer;
+                 }
+                }
+             }
+                }
+            }
+        }
+        .side-bar{
+          margin-top: 80px;
+            
+        }
+            .stickysidebar{
+            
+             position: sticky;
+             top: 0;
+            
+            .box-general {
+             padding: 20px;
+             border-radius: 5px;
+             margin-bottom: 15px;
+             border: 1px solid #e1e8ed;
+             .title{
+                 background-color: #3f4079;
+                 color: #fff;
+                 margin: -30px -30px 30px;
+                 padding: 20px 30px;
+                 border-radius: 5px 5px 0 0;
+                 h3{
+                     text-align: center;
+                    text-transform:uppercase;
+                     margin: 0;
+                     color: #fff;
+                 }
+             }
+             .summary{
+                 ul{
+                     list-style: none;
+                     padding: 0;
+                   li{
+                     color: #333;
+                     font-size: 17px;
+                     font-weight: 800;
+                     margin-bottom: 15px;
+                     border-bottom: 1px solid #e1e8ed;
+                   }
+                 }   
+             }
+             a{
+                 color: #fff;
+                 background: #e74e84;
+                 cursor: pointer;
+                 text-decoration: none;
+                 padding: 10px 20px;
+                 width: 100%;
+                 text-align: center;
+                 display: inline-block;
+                 outline: 0;
+                 font-size: 20px;
+                 transition: all .3s ease-in-out;
+                 border-radius: 25px;
+                 font-weight: 500;
+                 &:hover{
+                     background-color: $main-color;
+                 }
+             }
+             
+            } 
+            }
+        }
+        

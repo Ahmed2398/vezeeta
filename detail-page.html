@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Page</title>
+    <link rel="stylesheet" href="css/detail-page.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <link rel="stylesheet" href="css/jquery.calendar.css">
+    <link rel="stylesheet" href="css/checkbox2button.css">
+</head>
+<body>
+ <!--Start Upper Bar-->
+
+<div class="upper-bar">
+    <div class="container">
+      <div class="row">
+        <div class="info col-sm text-center text-sm-left">
+         <span>1234597</span>
+         <img src="images/phone-volume.png">
+          <span class="border"></span>
+         <span>ahmedashraf@gmail</span>
+         <img src="images/envelopes.png">
+        </div>
+        <div class="info col-sm text-center text-sm-right">
+            <span>العربية</span>
+            <img src="images/global.png" alt="global">
+          <span class="border"></span>
+          <img src="images/noun_profile_3144506.png" alt="profile"> 
+          <span>حسابي</span> 
+        </div>
+      </div>
+    </div>
+</div>
+
+<!--End Upper Bar-->
+
+<!--Start Nav Bar-->
+
+<nav class="navbar navbar-expand-lg navbar-light ">
+  <div class="container">
+    <a class="navbar-brand" href="index.html"> <span>R.vezeeta</span><span>.com</span></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <ul class="navbar-nav ml-auto">
+    <li class="nav-item ">
+      <a class="nav-link" href="index.html">الرئيسية</a>
+    </li>
+    <li class="nav-item ">
+      <a class="nav-link" href="about.html">من نحن</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="doctors.html">الدكاترة</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="blog.html">الأخبار</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        التسجيل
+      </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" href="register.html">انضم الأن</a>
+        <a class="dropdown-item" href="register-doctor.html"> تسجيل طبيب</a>
+        
+      </div>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-link" href="booking.html">الحجز</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="FAQ.html">الأسئلة الشائعة</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="login.html">الدخول</a>
+    </li>
+  </ul>
+  </div>
+  
+  </div>
+</nav>
+
+<!--End Nav Bar-->
+
+
+<!--Start Section Details-->
+
+<section class="details">
+<div class="container">
+<div class="row">
+<aside class="col-lg-4 col-xl-lg-3" class="side-bar">
+    <div class="stickysidebar">
+    <div class="box-profile">
+        <figure>
+            <img src="images/اطفال/doctor-loay-saed-pediatrics-and-new-born_20190728113851460.jpg" alt="doctor" class="img-fluid"> 
+        </figure>
+            <small>تخصص أطفال </small> 
+            <h1>دكتور لؤي سعيد</h1>
+        <span class="rating">
+            <ul class="list-inline">
+                <li class="list-inline-item">
+                    <i class="fas fa-star"></i></li>
+                <li class="list-inline-item active">
+                    <i class="fas fa-star"></i></li>
+                </li>
+                <li class="list-inline-item active">
+                    <i class="fas fa-star"></i></li>
+                </li>
+                <li class="list-inline-item active">
+                    <i class="fas fa-star"></i></li>
+                </li>
+                <li class="list-inline-item active">
+                    <i class="fas fa-star"></i></li>
+                </li>
+            </li>
+            <li class="list-inline-item">
+                <small>(145)</small></li>
+            </li>
+            <li class="list-inline-item">
+                <img src="images/badge_1.svg" alt="badge">
+            </li>
+            </ul>
+            <ul class="statistic">
+                <li class="list-inline-item">854 مشاهده</li>
+                <li  class="list-inline-item">124 مرضى</li>
+                </ul>
+                
+                <ul class="contacts">
+                    <li>
+                        <h6>العنوان</h6>
+                        <p>  الشروق (طريق الشباب – اسكان ال 100 متر)  </p>
+                    </li>
+                    <li>
+                        <p>الكشف : 120 جنيه</p>
+                    </li>
+                    </ul>  
+                    <div class=" linkk">
+                        <a href="booking.html" class="btn-1 outline" target="_blank">أحجز الأن </a>
+                </div> 
+        </span>
+    </div>
+    </div>
+</aside>  
+<div class="col-lg-8 col-xl-lg-9">
+    <div class="box-genral-2">
+        <div class="main-title">
+          <h3> أختيار المعاد والحجز<i class="fas fa-dot-circle"></i></h3>  
+        </div>
+        <div class="row">
+         <div class="col-lg-7">
+            <div id="example">
+            </div>
+            <ul class="legend">
+                <li class="list-inline-item square1">
+                    <strong class="square1"></strong>متاح
+                </li>
+                <li  class="list-inline-item square2">
+                    <strong class="square2"></strong>غير متاح
+                </li>
+            </ul>
+         </div>
+         <div class="col-lg-5 ">
+             
+            <ul class="time-select">
+                <li class=" checkbox checkbox2button">
+                <input type="radio" id="radio1" name="radio_time" value="09.30am">
+                <label for="radio1">09.30am</label>
+               
+                </li>
+                <li  class=" checkbox checkbox2button">
+                <input type="radio" id="radio2" name="radio_time" value="10.00am">
+                <label for="radio2">10.00am</label>
+                </li>
+                <li  class=" checkbox checkbox2button">
+                <input type="radio" id="radio3" name="radio_time" value="10.30am">
+                <label for="radio3">10.30am</label>
+                </li>
+                <li  class=" checkbox checkbox2button">
+                <input type="radio" id="radio4" name="radio_time" value="11.00am">
+                <label for="radio4">11.00am</label>
+                </li>
+                <li  class=" checkbox checkbox2button">
+                <input type="radio" id="radio5" name="radio_time" value="11.30am">
+                <label for="radio5">11.30am</label>
+                </li>
+                <li  class=" checkbox checkbox2button">
+                <input type="radio" id="radio6" name="radio_time" value="12.00am">
+                <label for="radio6">12.00am</label>
+                </li>
+                <li  class=" checkbox checkbox2button">
+                <input type="radio" id="radio7" name="radio_time" value="01.30pm">
+                <label for="radio7">01.30pm</label>
+                </li>
+                <li  class=" checkbox checkbox2button">
+                <input type="radio" id="radio8" name="radio_time" value="02.00pm">
+                <label for="radio8">02.00pm</label>
+                </li>
+                <li  class="checkbox checkbox2button">
+                <input type="radio" id="radio9" name="radio_time" value="02.30pm">
+                <label for="radio9">02.30pm</label>
+                </li>
+                <li class=" checkbox checkbox2button">
+                <input type="radio" id="radio10" name="radio_time" value="03.00pm">
+                <label for="radio10">03.00pm</label>
+                </li>
+                <li  class=" checkbox checkbox2button">
+                <input type="radio" id="radio11" name="radio_time" value="03.30pm">
+                <label for="radio11">03.30pm</label>
+                </li>
+                <li  class=" checkbox checkbox2button">
+                <input type="radio" id="radio12" name="radio_time" value="04.00pm">
+                <label for="radio12">04.00pm</label>
+                </li>
+                </ul>   
+                
+         </div>
+        </div>
+        <div class="main-title">
+            <h3>حدد الزيارة - العلاج<i class="fas fa-dot-circle"></i></h3>   
+        </div>
+        <ul class="treatments clearfix">
+            <li>
+        <div class="group">
+            <input type="checkbox" id="check1" class="form-group" />
+            <label for="check1">كشف</label>
+            </div>
+            </li>
+            <li>
+            <div class="group">
+                <input type="checkbox" id="check2" class="form-group" />
+                <label for="check2">استشاره</label>
+                </div>
+            </li>
+            <li>
+            <div class="group">
+                <input type="checkbox" id="check3" />
+                <label for="check3">اشاعه</label>
+                </div>
+            </li>
+        <li>
+            <div class="group">
+                <input type="checkbox" id="check4" />
+                <label for="check4">تحاليل</label>
+                </div>
+        </li>
+        <li>
+            <div class="group">
+                <input type="checkbox" id="check5" />
+                <label for="check5">كشف فورى</label>
+                </div>
+        </li>
+        
+        
+        </ul>
+        <hr>
+        <div class=" linkk "><a href="booking.html" class="btn-1 outline">احجز الان</a></div>
+</div>
+    <div class="tabs-styled">
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">الرئسيه</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">عدد المشاهده</a>
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <p class="lead ">Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                <div class="indent-title ">
+                    <i class="fas fa-user"></i>
+                    <h3>Professional statement</h3>
+                    <p>Mussum ipsum cacilds, vidis litro abertis.</p>
+                </div> 
+                <div class="wrapper-indent">
+                    <p>Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Nullam mollis. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapi.</p>
+                    <h6>Specializations</h6>
+                    <div class="row">
+                    <div class="col-lg-6">
+                    <ul class="bullets">
+                    <li><i class="fas fa-dot-circle"></i>Abdominal Radiology</li>
+                    <li><i class="fas fa-dot-circle"></i>Addiction Psychiatry</li>
+                    <li><i class="fas fa-dot-circle"></i>Adolescent Medicine</li>
+                    <li><i class="fas fa-dot-circle"></i>Cardiothoracic Radiology </li>
+                    </ul>
+                    </div>
+                    <div class="col-lg-6">
+                    <ul class="bullets">
+                    <li><i class="fas fa-dot-circle"></i>Abdominal Radiology</li>
+                    <li><i class="fas fa-dot-circle"></i>Addiction Psychiatry</li>
+                    <li><i class="fas fa-dot-circle"></i>Adolescent Medicine</li>
+                    <li><i class="fas fa-dot-circle"></i>Cardiothoracic Radiology </li>
+                    </ul>
+                    </div>
+                    </div>
+                    <!-- /row-->
+                </div>   
+                <hr>
+                <div class="indent-title">
+                    <i class="fas fa-scroll"></i>
+                    <h3>Education</h3>
+                    <p>Mussum ipsum cacilds, vidis litro abertis.</p>
+                    </div>
+                    <div class="wrapper-indent">
+                    <p>Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Nullam mollis. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapi.</p>
+                    <h6>Curriculum</h6>
+                    <ul class="list-edu">
+                    <li><i class="fas fa-graduation-cap"></i><strong>New York Medical College</strong> - Doctor of Medicine</li>
+                    <li><i class="fas fa-graduation-cap"></i><strong>Montefiore Medical Center</strong> - Residency in Internal Medicine</li>
+                    <li><i class="fas fa-graduation-cap"></i><strong>New York Medical College</strong> - Master Internal Medicine</li>
+                    </ul>
+                    </div>   
+                    <hr>   
+
+                    <div class="indent-title">
+                    <i class="fas fa-money-bill-wave"></i>
+                        <h3>Prices &amp; Payments</h3>
+                        <p>Mussum ipsum cacilds, vidis litro abertis.</p>
+                        </div>
+                        <div class="wrapper-indent">
+                        <p>Zril causae ancillae sit ea. Dicam veritus mediocritatem sea ex, nec id agam eius. Te pri facete latine salutandi, scripta mediocrem et sed, cum ne mundi vulputate. Ne his sint graeco detraxit, posse exerci volutpat has in.</p>
+                        <div class="table-responsive">
+                        <table class="table table-striped">
+                        <thead>
+                        <tr>
+                        <th>Service - Visit</th>
+                        <th>Price</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                        <td>New patient visit</td>
+                        <td>$34</td>
+                        </tr>
+                        <tr>
+                        <td>General consultation</td>
+                        <td>$60</td>
+                        </tr>
+                        <tr>
+                        <td>Back Pain</td>
+                        <td>$40</td>
+                        </tr>
+                        <tr>
+                        <td>Diabetes Consultation</td>
+                        <td>$55</td>
+                        </tr>
+                        <tr>
+                        <td>Eating disorder</td>
+                        <td>$60</td>
+                        </tr>
+                        <tr>
+                        <td>Foot Pain</td>
+                        <td>$35</td>
+                        </tr>
+                        </tbody>
+                        </table>
+                        </div>
+                        </div>                          
+            </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+               <div class="reviews-container">
+                 <div class="row">
+                  <div class="col-lg-3">
+                    <div class="review-summary">
+                        <strong>4.7</strong>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star not-vote"></i>
+                        </div>
+                        <small>Based on 4 reviews</small>
+                    </div>
+                  </div>  
+                <div class="col-lg-9">
+                <div class="row">
+                <div class="col-lg-10 col-9">
+                <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                </div>
+                <div class="col-lg-2 col-3"><small><strong>5 stars</strong></small></div>
+                </div>
+                <!-- /row -->
+                <div class="row">
+                <div class="col-lg-10 col-9">
+                <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                </div>
+                <div class="col-lg-2 col-3"><small><strong>4 stars</strong></small></div>
+                </div>
+                <!-- /row -->
+                <div class="row">
+                <div class="col-lg-10 col-9">
+                <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                </div>
+                <div class="col-lg-2 col-3"><small><strong>3 stars</strong></small></div>
+                </div>
+                <!-- /row -->
+                <div class="row">
+                <div class="col-lg-10 col-9">
+                <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                </div>
+                <div class="col-lg-2 col-3"><small><strong>2 stars</strong></small></div>
+                </div>
+                <!-- /row -->
+                <div class="row">
+                <div class="col-lg-10 col-9">
+                <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 0" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                </div>
+                <div class="col-lg-2 col-3"><small><strong>1 stars</strong></small></div>
+                </div>
+                <!-- /row -->
+                </div>                   
+                 </div>
+                 <hr>
+                 <div class="review-box clearfix">
+                    <figure class="rev-thumb"><img src="images/avatar1.jpg" alt="">
+                    </figure>
+                    <div class="rev-content">
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star not-vote"></i>
+                    </div>
+                    <div class="rev-info">
+                    Admin – April 03, 2016:
+                    </div>
+                    <div class="rev-text">
+                    <p>
+                    Sed eget turpis a pede tempor malesuada. Vivamus quis mi at leo pulvinar hendrerit. Cum sociis natoque penatibus et magnis dis
+                    </p>
+                    </div>
+                    </div>
+                </div>  
+                <div class="review-box clearfix">
+                    <figure class="rev-thumb"><img src="images/avatar2.jpg" alt="">
+                    </figure>
+                    <div class="rev-content">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star not-vote"></i>
+                        </div>
+                    <div class="rev-info">
+                    Ahsan – April 01, 2016
+                    </div>
+                    <div class="rev-text">
+                    <p>
+                    Sed eget turpis a pede tempor malesuada. Vivamus quis mi at leo pulvinar hendrerit. Cum sociis natoque penatibus et magnis dis
+                    </p>
+                    </div>
+                    </div>
+                </div> 
+                <div class="review-box clearfix">
+                        <figure class="rev-thumb"><img src="images/avatar3.jpg" alt="">
+                        </figure>
+                        <div class="rev-content">
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star not-vote"></i>
+                            </div>
+                        <div class="rev-info">
+                        Sara – March 31, 2016
+                        </div>
+                        <div class="rev-text">
+                        <p>
+                        Sed eget turpis a pede tempor malesuada. Vivamus quis mi at leo pulvinar hendrerit. Cum sociis natoque penatibus et magnis dis
+                        </p>
+                        </div>
+                        </div>
+                        <div>                                  
+               </div> 
+                </div>
+                <hr>
+                <div class="linkk"><a href="submit-review.html" class="btn-1">تأكيد التقيم</a></div>                
+    </div>
+</div>
+</div>  
+</div>   
+</section>
+
+<!--END Section Details-->
+
+<!--Start Footer Section-->
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-3">
+        <h3>R.vezeeta<span>.com</span></h3>
+        <hr class="hr-md">
+        <p>
+          :اهداف الموقع
+          تخفيض أسعار الكشوفات لغير القادرين
+          مساعدة المريض فى البحث عن العيادات فى جميع التخصصات الطبيه .
+          الخدمات تشمل : الكشف - الاستشاره - الادويه -الاشعات
+        </p>
+        <ul class="list-inline">
+          <li class="list-icon">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+          </li>
+          <li class="list-icon">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li class="list-icon"><a href="#"><i class="fab fa-instagram"></i></a></li>
+          <li class="list-icon"><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+          
+        </ul>
+      </div>
+    <div class="col-sm-4 col-md-6 col-lg-3">
+      <h3>روابط مختصره</h3>
+      <hr class="hr-md">
+      <ul class="links">
+        <li class="list-item">
+          <i class="fas fa-angle-double-left"></i>
+          <a href="index.html">الرئسية</a>
+        </li>
+        <li class="list-item">
+          <i class="fas fa-angle-double-left"></i>
+        <a href="about.html">من نحن</a>
+        </li>
+        <li class="list-item">
+          <i class="fas fa-angle-double-left"></i>
+          <a href="booking.html">الحجز</a>
+        </li>
+        <li class="list-item">
+          <i class="fas fa-angle-double-left"></i>
+          <a href="submit-review.html">التقيم</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-sm-4 col-md-6 col-lg-3">
+        <h3>روابط سريعه</h3>
+      <hr class="hr-md">
+      <ul class="links">
+        <li class="list-item">
+          <i class="fas fa-angle-double-left"></i>
+          <a href="my-account.html">حسابى</a>
+        </li>
+        <li class="list-item">
+          <i class="fas fa-angle-double-left"></i>
+          <a href="register-doctor.html">بيانات الدكاتره</a>
+        </li>
+        <li class="list-item">
+          <i class="fas fa-angle-double-left"></i>
+          <a href="register.html">التسجيل</a>
+        </li>
+        <li class="list-item">
+          <i class="fas fa-angle-double-left"></i>
+          <a href="FAQ.html">الاسئله الشائعه</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-sm-4 col-md-6 col-lg-3">
+      <h3>التواصل معنا </h3>
+      <hr class="hr-md">
+      <ul class="links">
+        <li class="list-item">
+          <span>مصر . القاهره</span>
+          <img src="images/pin (1).png">
+        </li>
+        <li class="list-item">
+          <span>+966 123 456 789</span>
+          <img src="images/phone (2).png">
+        </li>
+        <li class="list-item">
+          <span>nameemail@gmail.com</span>
+          <img src="images/mail (1).png">
+        </li>
+      </ul>
+    </div>
+    <hr class="hr-footer">
+    <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+      <h5 style="color: rgb(14, 14, 14);"><span style="color: #e74e84;">  R.vezeeta 2020 &copy;</span>جميع الحقوق محفوظه</h5>
+    </div>
+    </div>
+  </div>
+  </footer>
+  
+  <!--END Footer Section-->
+
+<!--SCRIPTS-->
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.calendar.js"></script>
+<script src="js/checkbox2button.min.js"></script>
+<script src="js/checkboxradio.min.js"></script>
+
+</body>
+</html>

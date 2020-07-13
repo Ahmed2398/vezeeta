@@ -1,0 +1,54 @@
+@import"../node_modules/bootstrap-scss/bootstrap.scss";
+@import"../css/sass/helpers/variables";
+@import"../css/sass/layout/footer";
+@import"../css/sass/layout/header";
+.question{
+    text-align: center;
+    padding: 60px 0 40px 0;
+    h2{
+        color: $main-color-3;
+        font-size: 30px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    p{
+        color: $secondary-color;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 5px;
+    }
+}
+
+
+ .card {
+    margin: 15px 0;
+}
+.question .accordion .card-header h2 {
+    text-align: right;
+    font-size: 25px;
+  
+}
+.question .accordion .card-header .btn-link {
+      color: #666666;
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: 900;
+  }
+  .question .accordion img {
+      border: none;
+      padding: 0 8px;
+  }
+  .active, .btn-link:active{
+      background-color:$Primary-color;
+      color: #FFF !important;
+  }
+  
+
+  .accordion .card-body {
+      color:#999999;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: right;
+  }
+
+

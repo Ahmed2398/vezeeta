@@ -1,0 +1,181 @@
+.blog{
+    padding: 60px 0 40px 0 ;
+    background-color: #F5F8FA;
+    h1{
+        text-align: center;
+        font-weight: 600;
+        span{
+            color: $Primary-color;
+        }
+    }
+    p{
+        color: $secondary-color;
+       
+    }
+
+    figure{
+    position: relative;
+          a{
+         .card-img{
+            backface-visibility: hidden;
+            transition: all 0.3s ease;
+             &:hover{
+                transform:scale(.9);
+                content: '/ahmed';
+             }
+            
+         }  
+    .review{
+        span{
+            position: absolute;
+            top:145px;
+            left: 150px;
+            color: #333;
+            border: 1px solid;
+            border-radius: 10px;
+            padding: 5px 10px;
+            background-color: #fff;
+          transition: ease-in .3s;
+          opacity: 0;
+
+          &:hover{
+            opacity: 1;
+            transform: scale(1.2);
+            transition: ease-in-out 1s;
+        }
+    }  
+        }
+        
+    }  
+
+}
+    .post-info{
+    padding: 30px;
+    position: relative;
+    box-sizing: border-box;
+    min-height: 350px;
+    small{
+    font-weight: 500;
+    color: $secondary-color;
+    }
+    a{
+        color:#333;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: bold; 
+        &:hover{
+            color: royalblue;
+            cursor: pointer;
+        }
+    }
+    p{
+        margin-bottom: 25px;
+        color: $secondary-color;
+    }
+    }
+    aside{
+            
+        .btn{
+            color: #fff;
+            background-color:$Primary-color;
+            padding: 2px 30px;
+            margin-bottom: 20px;
+            border-radius: 20px;
+            font-weight: 500;
+            &:hover{
+                background-color: $main-color;
+                color: #333;
+            }
+            }
+            .widget-title{
+               background-color: #F5F8FA;
+                padding: 20px 0 5px 0;
+               
+                h4{
+                color: #333;
+                font-size: 20px;
+                font-weight: 500;
+                border-bottom:1px solid #e1e8ed;
+                margin-bottom: 20px;
+                margin: 0 25px 10px;
+               
+            }
+            .comments-list{
+                list-style: none;
+                padding: 0;
+                li{
+                    padding: 15px 0;
+            .alignleft{
+               
+                img{
+                   width: auto;
+                    height: 90px;
+                }
+            }
+            small{
+                color: $secondary-color;
+                font-size: 12px;
+            }
+            a  {
+                font-size: 14px;
+                color:#333;
+                text-decoration: none;
+                &:hover{
+                    color: $Primary-color;
+                }                
+            }
+        }
+        }
+          
+            }
+        .widget-1{
+            background-color: #F5F8FA;
+            padding: 20px 0 5px 0;
+            .categories{
+                list-style: none;
+                li{
+                    margin-bottom: 5px;
+                a{
+                    color: #333;
+                    text-decoration: none;
+                    font-size: 16px;
+                    font-weight: 600;
+                    &:hover{
+                        color: $Primary-color;
+                    }
+                }
+            }
+            }
+        }
+        .widget-2{
+            background-color: #F5F8FA;
+            padding: 20px 0 5px 0;  
+            .tags{
+                list-style: none;
+                li{
+                    display: inline-flex;
+                   
+            
+            a{
+                color: $Primary-color;
+                text-decoration: none;
+                font-size: 12px;
+                font-weight: 600;
+                padding: 3px 10px;
+                margin: 0 2px 4px;
+                background-color: #fff;
+                border-radius: 3px;
+                transition: all 0.3s ease;
+                &:hover{
+                    color:#fff;
+                    background-color: $Primary-color;
+                    transform: scale(1.2);
+                }
+        }
+    }
+    }
+        
+    }
+}
+    
+}

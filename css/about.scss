@@ -1,0 +1,140 @@
+@import "../node_modules/bootstrap-scss/bootstrap.scss";
+@import "../css/sass/helpers/variables";
+@import "../css/sass/layout/header";
+@import "../css/sass/layout/footer";
+.about{
+    padding: 60px 0 40px 0;
+ 
+    .main-title{
+        text-align: center;
+        h1{
+           color: #333;
+            span{
+             color: $Primary-color;
+            }
+        }
+        p{
+         font-size: 20px;
+         font-weight: 400;
+        color:$secondary-color;
+        }
+    }
+    figure{
+        img{
+        max-width: 100%;
+        height: auto;
+        }
+    }
+    .news{
+        p{
+            color: $secondary-color;
+            margin-bottom: 25px;
+            text-align: right;
+            font-size: 22px;
+
+        }
+    }
+
+
+}
+
+.about-us{
+    padding: 60px 0 40px 0;
+    .main-title{
+        text-align: center;
+        margin-bottom: 20px;
+        h2{
+            font-weight: 600;
+            letter-spacing: -1px;
+            font-size: 36px;
+            margin: 0;
+            text-transform: capitalize;
+        }
+        p{
+           padding: 10px 0;
+            color: $secondary-color;
+        }
+    }
+    .about-review{
+        border: 1px solid #e1e8ed;
+        margin-bottom: 20px;
+        .list-inline{
+            padding: 10px 15px 0;
+            .fas{
+                color: #FFC107;
+            }
+        }
+        p{
+            margin-right: 10px;
+            text-align: center;
+            color: $secondary-color;
+            font-size: 18px;
+        }
+        figure{
+            padding: 0 10px;
+    img{
+        width: auto;
+    height: 50px;
+   
+    border-radius: 25px;
+    }
+        }
+    .user-review{
+        h4{
+            color: $secondary-color;
+            font-size: 14px;
+            position: absolute;
+            top: 125px;
+            left: 90px;
+        }
+    }
+    }
+
+}
+
+.choose{
+    background-color: #F5F8FA;
+    padding: 60px 0 40px 0;
+    .main-title{
+        text-align: center;
+        h2{
+            color: #333;
+            text-transform: capitalize;
+            span{
+                color: $Primary-color;
+            }
+        }
+        p{
+            color: $secondary-color;
+            font-weight: 400;
+        }
+    }
+    .card{
+        text-align: center;
+        background-color: #fff;
+        transition: all 1s;
+       padding: 40px 30px 30px;
+       box-shadow: 0 3px 0 0 #f0f2f4;
+    color: #555;
+    margin-bottom: 30px;
+    .fas{
+      margin-bottom: 15px;
+       
+        font-size: 50px;
+        color: $main-color-2;
+    }
+    h3{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    p{
+        color: $secondary-color;
+        font-weight: 400;
+    }
+    &:hover{
+        transform: scale(.9);
+    }
+    }
+
+}
+

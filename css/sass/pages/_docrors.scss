@@ -1,0 +1,184 @@
+.doctors{
+    padding: 60px 0 40px 0;
+    background-color:#F5F8FA;
+    .main-title{
+        text-align: center;
+
+        h1{
+           color: #333;
+            span{
+             color: $Primary-color;
+            }
+        }
+        p{
+         
+            color:$secondary-color;
+        }
+    }
+    .best-doctor{
+        background-color: $main-color-2;
+        padding: 10px 0;
+        margin: 30px 0 15px 0;
+        text-align: center;
+        h5{
+            color:#fff;
+            text-transform: uppercase;
+            margin: 0;
+        }
+        p{
+            color: $secondary-color;
+            margin: 0;
+        }
+    }
+    .strip-list{
+    margin-bottom: 25px;
+    background-color: #fff;
+    padding: 20px 15px 15px 115px;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,.05);
+    .fa-heart{
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        z-index: 2;
+        background-color: #000;
+        background-color: rgba(0,0,0,.6);
+        padding: 9px 10px;
+        color: #fff;
+        line-height: 1;
+        border-radius: 3px;
+        transition: all .5s ease;
+         &:hover{
+            color:$Primary-color; 
+         }
+        
+        }
+    figure{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    overflow: hidden;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    left: 15px;
+    top: 15px;
+    img{
+        width: auto;
+        height: 95px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%) scale(1);
+     }
+   
+    }
+    small{
+        font-size: 16px;
+        color: $secondary-color;
+        font-weight: 400;
+    }
+    p{
+        color: $secondary-color;
+        font-weight: 600;
+    }
+     .voted{
+         color: $star-color;
+     }
+     .listinline{
+        border-top: 1px solid #ededed;
+        margin: 15px -15px -15px -115px;
+        padding: 20px 15px;
+        list-style: none;
+        .first-item{
+            & ::after{
+                content: '|';
+                font-weight: 400;
+                margin-left: 8px;
+                color: #ccc;
+               }
+            }
+        li{
+            display: inline-block;
+            margin-right: 5px;
+            font-weight: 500;
+           
+           .btn-listing{
+               color: $secondary-color;
+               cursor: pointer;
+               text-decoration: none;
+           } 
+           .btn-1{
+            border: 2px solid #e74e84;
+            color: #e74e84;
+            cursor: pointer;
+            padding: 5px 10px;
+            transition: all .3s ease-in-out;
+            border-radius: 30px;
+            text-decoration: none;
+            &:hover{
+                background-color: $Primary-color;
+                color: #fff;
+                transform: scale(.8);
+            }
+           }
+          
+        }
+     }
+    }
+    .side-bar{
+    position: relative;
+    overflow: visible;
+    box-sizing: border-box;
+    border: 1px solid #ededed;
+    background-color: #fff; 
+    .main-title{
+        border-bottom: 1px solid #ededed;
+        background-color: $main-color;
+        padding: 10px 0;
+        margin: 30px 0 15px 0;
+        h5{
+            color:$main-color-3;
+            text-transform: uppercase;
+            margin: 0;
+        }
+        p{
+            color: $secondary-color;
+            margin: 0;
+        }
+    }
+    .stickysidebar{
+        position: sticky;
+        top: 0;
+    }
+    .departments{
+            border-bottom: 1px solid #ededed;
+        ul{
+          list-style: none;
+          li{
+              padding: 10px 0;
+              border-bottom: 1px solid #ededed;
+              margin: -1px;
+              a{
+                  text-decoration: none;
+                  color:$main-color-2 ;
+                  font-size: 18px;
+                  font-weight: 600;
+                  transition: all.5s;
+
+                  &:hover{
+                      color: $Primary-color;
+                      cursor: pointer;
+                      transform: scale(.8);
+                      background-color: $Primary-color;
+                      color: #fff;
+                  }
+              }
+          }
+        }
+       
+    }
+    }
+}

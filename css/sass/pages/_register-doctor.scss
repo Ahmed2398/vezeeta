@@ -1,0 +1,90 @@
+.register-doctor{
+    background-image: url('../images/hero_bg_1.svg');
+    background-color: $main-color-2;
+    -webkit-border-size: cover ;
+    background-size: cover ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-top: 120px;
+    padding-bottom: 95px;
+    .register{
+        
+        h1{
+            color: #fff;
+            font-size: 40px;
+        }
+        p{
+            color: $secondary-color;
+            font-size: 20px;
+            font-weight: 600;
+        }
+        .box-feedback-1{
+            .fas{
+                position: absolute;
+                left: -45px;
+                top: 170px;
+                font-size: 30px;
+                color: #74d1c6;
+            }
+            h3{
+            color: #fff02a;
+            font-size: 28px;
+            }
+        }
+        .box-feedback-2{
+            .fas{
+                position: absolute;
+                left: -45px;
+                top: 315px;
+                font-size: 30px;
+                color: #74d1c6;
+            }
+            h3{
+            color: #fff02a;
+            font-size: 28px;
+            }
+        }
+        .box-feedback-3{
+            .fas{
+                position: absolute;
+                left: -45px;
+                top: 465px;
+                font-size: 30px;
+                color: #74d1c6;
+            }
+            h3{
+            color: #fff02a;
+            font-size: 28px;
+            }
+        }
+        .form-reg{
+         
+            margin-bottom: 45px;
+            color: #555;
+            padding: 30px;
+            border-radius: 5px;
+            background-color: #fff;
+            .form-group{
+                margin-bottom: 45px;
+            }
+        }
+        .btn{
+            background: #e74e84;
+                cursor: pointer;
+                text-decoration: none;
+                padding: 10px 20px;
+                width: 100%;
+                text-align: center;
+                display: inline-block;
+                outline: 0;
+                font-size: 20px;
+                transition: all .3s ease-in-out;
+                border-radius: 25px;
+                font-weight: 500;
+                color: #fff;
+                &:hover{
+                    background-color: $main-color;
+                }
+        }
+    }
+}
